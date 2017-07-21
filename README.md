@@ -15,3 +15,8 @@ Will learn
 - Conditionals
 - Comments
 - PHP on the Web
+
+Note
+----
+
+<img src="images/escapedCharacters.png">
