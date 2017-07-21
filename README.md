@@ -21,3 +21,4 @@ Note
 
 <img src="images/escapedCharacters.png">
 <img src="images/concatenation.png">
+<img src="images/comparison.png">
