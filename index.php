@@ -36,7 +36,13 @@ $display_name = 'Jim Vang';
         </section>
     </div>
     <section class="footer text-center">
-      &copy; 2017 <?php echo $display_name; ?>
+      &copy; <?php
+     echo date('Y');
+     //PHP has many built-in functions that can handle complex programming tasks for us. Let PHP work for you by utilizing built-in functionality. We'll be using the date function that we used in the Daily Exercise Program to update copyright dates.
+     echo " ". $display_name . ". ";
+     // outputs e.g. 'Last modified: March 04 1998 20:43:59.'
+     echo "Last modified: " . date ("F d Y H:i:s.", getlastmod());
+     ?>
     </section>
   </body>
 </html>
