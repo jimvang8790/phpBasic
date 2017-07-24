@@ -29,10 +29,13 @@ $display_name = 'Jim Vang';
           <h1>My First PHP Page</h1>
 
           <h2>Unit Conversion</h2>
-
+          <?php include 'inc/units.php';?>
+          <!-- include the units.php into index.php file -->
           <hr />
 
           <h2>Daily Exercise</h2>
+          <?php include 'inc/exercise.php';?>
+          <!-- include the exercise.php into index.php file -->
         </section>
     </div>
     <section class="footer text-center">
